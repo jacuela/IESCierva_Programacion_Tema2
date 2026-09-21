@@ -25,13 +25,11 @@ public class Ejercicio01 {
         System.out.print("Dime el tercer valor:");
         z=Double.parseDouble(teclado.nextLine());
 
-
         media=(x+y+z)/3;
 
         System.out.println("La media es:"+media);
 
         System.out.printf("La media es:%.2f\n",media);
-        System.out.println("");
 
     }
 }
