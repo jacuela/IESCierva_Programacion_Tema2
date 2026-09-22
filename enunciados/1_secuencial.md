@@ -26,12 +26,24 @@ Un alumno desea saber cual será su calificación final en la materia de Algorit
 Dadas dos variables numéricas A y B, que el usuario debe teclear, se pide realizar un algoritmo que intercambie los valores de ambas variables y muestre cuanto valen al final las dos variables.
 
 ## Ejercicio 8
-Dado un número de dos cifras, diseñe un algoritmo que permita obtener el número invertido. Ejemplo, si se introduce 23 que muestre 32.
-
+Dado un número de dos cifras, diseñe un algoritmo que permita obtener el número invertido. Ejemplo, si se introduce 23 que muestre 32. Hay que hacerlo por medio de cálculos numéricos, no concatenando cadenas.
 
 ## Ejercicio 9
 Pedir el nombre y los dos apellidos de una persona y mostrar las iniciales.
 
+**Funciones**
+- Usa la función `cadena.charAt(posicion)` para obtener el carácter que se encuentra en una posición concreta de una cadena. La primera posición es la cero.
+
 ## Ejercicio 10
 Diseñar un algoritmo que nos diga el dinero que tenemos (en euros y céntimos) después de pedirnos cuantas monedas tenemos (de 2€, 1€, 50 céntimos, 20 céntimos o 10 céntimos).
 
+La salida del programa tiene que ser, por ejemplo:
+```text
+Monedas de 2 euros: 9
+Monedas de 1 euros: 1
+Monedas de 50 centimos: 2
+Monedas de 20 centimos: 5
+Monedas de 10 centimos: 1
+
+> Todo suma 21 euros y 10 centimos
+```
