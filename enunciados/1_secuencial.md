@@ -47,3 +47,9 @@ Monedas de 10 centimos: 1
 
 > Todo suma 21 euros y 10 centimos
 ```
+
+## Ejercicio 11
+Calcula la velocidad de un objeto que cae durante un determinado número de segundos.
+La fórmula es: 
+v = g * t, siendo g la aceleración de la gravedad, 9.81
+
