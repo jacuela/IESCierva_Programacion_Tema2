@@ -35,7 +35,7 @@ Usando el operador ternario, haz estos ejercicios:
 - Guarda el mayor de dos números.
 
 
-## Ejercicio7 - bisiesto
+## Ejercicio 7 - bisiesto
 Hacer un programa que le digas un año y te diga si es bisiesto. Un año es bisiesto:
 
 Es divisible entre 4 y no es divisible entre 100.
