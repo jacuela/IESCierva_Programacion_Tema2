@@ -22,14 +22,18 @@ El caso de que no haya entregado el trabajo, la nota de la evaluación será un 
 
 MEJORA: comprueba además que la nota es válida, es decir, que no es <0 y no es >10. Hazlo con una condición doble de tipo OR   ||
 
-## Ejercicio 6 - buenos dias/tardes/noches
-Realiza un programa que te pida por teclado la hora del día (en formato 24H) y según la misma, te diga te de los "BUENOS DÍAS" (de 6 a 12), las "BUENAS TARDES" (de 12 a 21) o las "BUENAS NOCHES" de (21 a 6).
+## Ejercicio 6 - operador ternario  
+El operador ternario es una forma abreviada de usar un if..else. La estructura es la siguiente:
+```
+condición ? valor_si_verdadero : valor_si_falso
+```
+Si la condición es verdadera, se devuelve lo que hay a continuación de ?. Si es falsa, lo que hay a continuación de :
 
-Por ejemplo:  
-- Entrada →  hora=22;  
-- Salida  →  "Son las 22. BUENAS NOCHES!!"
+Usando el operador ternario, haz estos ejercicios:
+- Guarda en una variable booleana si una persona es mayor de edad o no, dada su edad.
+- Indica si un número es par o impar.
+- Guarda el mayor de dos números.
 
-MEJORA: Investiga cómo se podría hacer para que tomara la hora actual y no tengamos que meterla.
 
 ## Ejercicio7 - bisiesto
 Hacer un programa que le digas un año y te diga si es bisiesto. Un año es bisiesto:
