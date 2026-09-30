@@ -22,7 +22,7 @@ public class Ejercicio05 {
         entregado = teclado.nextLine();
 
         //Cálculo de la nota de evaluación
-        if (entregado.equals("S")){
+        if (entregado.equals("S") || entregado.equals("s") ){
             //He entregado el trabajo. Calculo media
             notaEvaluacion=examen1*0.3+examen2*0.3+examen3*0.4;
         }
