@@ -13,11 +13,11 @@ public class Ejercicio13 {
         System.out.println("=======================");
 
         System.out.print("Dime en nombre:");
-        nombre = teclado.nextLine();
+        nombre = teclado.nextLine().toUpperCase();
         System.out.print("Dime el primer apellido:");
-        apellido1 = teclado.nextLine();
+        apellido1 = teclado.nextLine().toUpperCase();
         System.out.print("Dime el segundo apellido:");
-        apellido2 = teclado.nextLine();
+        apellido2 = teclado.nextLine().toUpperCase();
 
         int posicionBlanco;
         posicionBlanco = nombre.indexOf(' ');
