@@ -42,7 +42,6 @@ MEJORA: Finalizada la opción, aparecerá "pulsar INTRO para continuar". Hazlo s
 ``` 
 
 
-
 ## Ejercicio 5 - vocales
 Algoritmo que pida caracteres e imprima ‘VOCAL’ si son vocales y ‘NO VOCAL’ en caso contrario, el programa termina cuando se introduce un espacio.
 
@@ -61,7 +60,7 @@ Algoritmo que pida números hasta que se introduzca un cero. Al terminar, debe i
 
 
 ## Ejercicio 9 - caja fuerte
-Realiza el control de acceso a una caja fuerte. La combinación será un número de 4 cifras. El programa nos pedirá la combinación para abrirla. No terminaremos hasta meter la combinación secreta.
+Realiza el control de acceso a una caja fuerte. La combinación será un número de 4 cifras que defines en código `String secreto="0123"`. El programa nos pedirá la combinación para abrirla. No terminaremos hasta meter la combinación secreta.
 
 Para abortar el bucle cuando acertamos, podemos hacerlo de dos maneras:
 - usando un testigo de tipo booleano `acertado` que pondremos a true cuando acertamos. 
@@ -115,7 +114,14 @@ for(int i=0; i<cadena.length();i++){ cadena.charAt(i) }
 ``` 
 
 
-## Ejercicio 12 - email correcto
+## Ejercicio 12 - adivina numero
+Realizar un juego para adivinar un número entre 1 y 50. Para ello, definir en una variable el número N a adivinar. Luego ir pidiendo números indicando “mayor” o “menor” según sea mayor o menor con respecto a N. El proceso termina cuando el usuario acierta.
+Para hacerlo más entretenido, el número N podemos hacerlo aleatorio con el siguiente código:  
+`int N=(int)(Math.random()*50)+1`
+MEJORA: indíca al final cuantos intentos has necesitado para adivinar.
+
+
+## Ejercicio 13 - email correcto
 Hacer un programa que te diga si una dirección de email es correcta o no.
 - **pedro@gmail.tk** correcta
 - **pedro@gmail** incorrecta  (falta el . )
@@ -126,7 +132,7 @@ Hacer un programa que te diga si una dirección de email es correcta o no.
 
 OPCIONAL: meter en un bucle el programa que te pida direcciones hasta pulsar la tecla INTRO para finalizar.
 
-## Ejercicio 13 - divisores de un número
+## Ejercicio 14 - divisores de un número
 Hacer un programa que te vaya pidiendo números y te indique sus divisores. El programa finaliza cuando le metemos el número 0.
 
 ¿Qué son los divisores? Búscalo.
@@ -137,5 +143,6 @@ Mira esta dirección: http://nosolomates.es/ayuda/ayuda/divisores.htm
 El programa tendrá exactamente esta interfaz.
 
 ![divisores](./imagenes/divisores.png)
+
 
 
