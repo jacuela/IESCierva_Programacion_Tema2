@@ -29,7 +29,10 @@ public class Ejercicio04 {
                     break;
             }
             System.out.println();
+            System.out.println("--Pulse INTRO para continuar--");
+            teclado.nextLine();
         }while(opcion!=3);
+
 
 
 
