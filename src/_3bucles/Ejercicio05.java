@@ -6,7 +6,6 @@ public class Ejercicio05 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
-
         char caracter;
 
         do {
