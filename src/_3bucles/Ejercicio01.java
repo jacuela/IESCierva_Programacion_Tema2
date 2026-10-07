@@ -1,5 +1,7 @@
 package _3bucles;
 
+import com.sun.security.jgss.GSSUtil;
+
 import java.util.Scanner;
 
 public class Ejercicio01 {
@@ -14,10 +16,13 @@ public class Ejercicio01 {
 
         for (int i=1;i<=10;i++){
             System.out.println(num+" x "+i+" = "+(num*i));
-
         }
-
-
+        System.out.println("--------------------------");
+        int i=1;
+        while (i<=10){
+            System.out.println(num+" x "+i+" = "+(num*i));
+            i++;
+        }
 
 
     }
