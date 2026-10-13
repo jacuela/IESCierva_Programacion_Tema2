@@ -53,7 +53,7 @@ Al finalizar, indicar si hemos introducido algún número negativo y decirlo.
 ## Ejercicio 7 - Uso de acumuladores
 Hacer un programa que nos pida un número por teclado N, y calcule:
 - la suma de los N primeros números naturales.
-- el factorial de N! (el factorial es la multiplicación de los N números consecutivos, es decir, 4!=1*2*3*4
+- el factorial de N! (el factorial es la multiplicación de los N números consecutivos, es decir, 4!=1x2x3x4
 
 ## Ejercicio 8 - Uso de contadores
 Algoritmo que pida números hasta que se introduzca un cero. Al terminar, debe indicar el total y la suma de todos los números introducidos. Hacerlo con un WHILE Y UN DO..WHILE
