@@ -1,10 +1,10 @@
 package _3bucles;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Ejercicio06 {
     public static void main(String[] args) {
-        Scanner teclado = new Scanner(System.in);
+        java.util.Scanner teclado = new java.util.Scanner(System.in);
 
         System.out.println("Ejercicio06");
         System.out.println("===========");
