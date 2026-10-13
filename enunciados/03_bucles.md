@@ -76,8 +76,7 @@ La condición de while será doble, algo parecido como esto: `(intentos > 0) && 
 
 ## Ejercicio 10 - Bucles anidados
 Pedir un número N por teclado y utilizando dos bucles FOR anidados hacer dos programas:
-- programa que muestre la tabla de multiplicar de los números entre 1 y N primeros
-  Para N=5
+- programa que muestre la tabla de multiplicar de los números entre 1 y N.
 - (OPCIONAL) programa que muestre el factorial de todos los números entre 1 y N. (hacerlo con un bucle for anidado)
 
 |Para N=5|
