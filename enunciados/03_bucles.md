@@ -57,6 +57,7 @@ Hacer un programa que nos pida un número por teclado N, y calcule:
 
 ## Ejercicio 8 - Uso de contadores
 Algoritmo que pida números hasta que se introduzca un cero. Al terminar, debe indicar el total y la suma de todos los números introducidos. Hacerlo con un WHILE Y UN DO..WHILE
+NOTA: el número cero no cuenta para el contador y la suma.
 
 
 ## Ejercicio 9 - caja fuerte
