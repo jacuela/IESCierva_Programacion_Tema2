@@ -28,6 +28,9 @@ public class Ejercicio08 {
         //==== CON UN WHILE ====
         //Me obliga a hacer una primera lectura fuera
 
+        //Reseteo variables
+        suma = 0;
+        totalNum = 0;
 
         System.out.print("Dime número:");
         num = Integer.parseInt(teclado.nextLine());
@@ -40,11 +43,6 @@ public class Ejercicio08 {
             num = Integer.parseInt(teclado.nextLine());
 
         }
-
-
-
-
-
 
         System.out.println("Suma total:"+suma);
         System.out.println("Total numeros:"+totalNum);
