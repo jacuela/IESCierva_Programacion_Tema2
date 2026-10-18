@@ -120,6 +120,8 @@ Para hacerlo más entretenido, el número N podemos hacerlo aleatorio con el sig
 `int N=(int)(Math.random()*50)+1`
 MEJORA: indíca al final cuantos intentos has necesitado para adivinar.
 
+![num_secreto.png](imagenes/num_secreto.png)
+
 
 ## Ejercicio 13 - email correcto
 Hacer un programa que te diga si una dirección de email es correcta o no.
