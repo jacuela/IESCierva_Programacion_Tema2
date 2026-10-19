@@ -116,8 +116,21 @@ for(int i=0; i<cadena.length();i++){ cadena.charAt(i) }
 
 ## Ejercicio 12 - adivina numero
 Realizar un juego para adivinar un número entre 1 y 50. Para ello, definir en una variable el número N a adivinar. Luego ir pidiendo números indicando “mayor” o “menor” según sea mayor o menor con respecto a N. El proceso termina cuando el usuario acierta.
-Para hacerlo más entretenido, el número N podemos hacerlo aleatorio con el siguiente código:  
-`int N=(int)(Math.random()*50)+1`
+Para hacerlo más entretenido, el número N podemos hacerlo aleatorio con el siguiente código:
+
+```java
+//Forma sencilla pero coñazo
+int N=(int)(Math.random()*50)+1
+
+//Forma más versátil
+import java.util.Random;
+Random random = new Random();
+//Entre 1 y 50
+int numero = random.nextInt(1, 51);
+//Entre 0 y 50
+int numero = random.nextInt(51);
+
+``` 
 MEJORA: indíca al final cuantos intentos has necesitado para adivinar.
 
 ![num_secreto.png](imagenes/num_secreto.png)
