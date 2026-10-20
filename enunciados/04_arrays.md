@@ -20,8 +20,8 @@ Define un array de enteros. Los valores en tiempo de compilación serán 2,4,6,8
 Muestra los valores en orden inverso usando un for y usando la propiedad `.length` del array.
 
 
-## Ejercicio02 - meter numeros en array
-Lee por teclado 5 enteros y mételos en un array llamado _numeros_.
+## Ejercicio02 - meter números en array
+Rellena un array llamado _numeros_ de tamaño 5 con numeros enteros generados aleatoriamente. El rango será desde el 1 al 9.
 
 A continuación muestra todos los números de la forma que muestro a continuación. Usa un for para recorrer el array y mostrarlos de las dos formas (ver imagen):
 - forma 1: usar printf, columna de ancho 10.
@@ -31,10 +31,10 @@ A continuación muestra todos los números de la forma que muestro a continuaci�
 
 
 ## Ejercicio03 - leer notas
-Se quiere realizar un programa que lea por teclado las 5 notas obtenidas por un alumno (comprendidas entre 0 y 10). A continuación debe mostrar la nota máxima, la mínima y la   media.
+Se quiere realizar un programa que lea por teclado las 5 notas obtenidas por un alumno (comprendidas entre 0 y 10). Guarda las notas en un array. A continuación debe mostrar la nota máxima, la mínima y la   media.
 
 ## Ejercicio04 - rellenar array 
-Programa que declare un array de diez elementos enteros y pida números para rellenarlo hasta que se llene el array o se introduzca un número negativo. Este negativo será el último valor metido en el array. A continuación, imprimiremos el vector,  pero solo los positivos. 
+Programa que declare un array de diez elementos enteros y pida números para rellenarlo hasta que se llene el array o se introduzca un número negativo. Este negativo será el último valor metido en el array. A continuación, imprimiremos el array,  pero solo los positivos. 
 
 
 ## Ejercicio05 - son pares todos?
