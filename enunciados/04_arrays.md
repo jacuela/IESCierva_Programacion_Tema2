@@ -1,4 +1,19 @@
 # Tema 2 - Ejercicios de arrays
+## Generar números aleatorios
+```java
+//Forma sencilla pero coñazo
+int N=(int)(Math.random()*50)+1
+
+//Forma más versátil
+import java.util.Random;
+Random random = new Random();
+//Entre 1 y 50
+int numero = random.nextInt(1, 51);
+//Si solo indico un parámetro, entre 0 y 50
+int numero = random.nextInt(51);
+``` 
+
+
 
 ## Ejercicio01 - declarar array
 
