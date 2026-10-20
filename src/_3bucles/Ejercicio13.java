@@ -16,7 +16,6 @@ public class Ejercicio13 {
         // anterior al .
         //--------------------------------------
 
-
         boolean existe_arroba=false;
         boolean existe_punto=false;
         int posicion_punto=0;   //mejor iniciar a -1??
