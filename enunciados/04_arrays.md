@@ -1,6 +1,6 @@
 # Tema 2 - Ejercicios de arrays
 
-## Ejercicio01 - tabla multiplicar
+## Ejercicio01 - declarar array
 
 PARTE1
 Declara el siguiente array de String de dos maneras:
