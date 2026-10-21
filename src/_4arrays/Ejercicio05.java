@@ -20,11 +20,5 @@ public class Ejercicio05 {
         }else{
             System.out.println("NO son todos PARES");
         }
-
-
-
-
-
-
-        }
+    }
 }

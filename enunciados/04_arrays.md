@@ -64,9 +64,9 @@ Ejemplo:
 
 
 ## Ejercicio07 - comparar lista con array auxiliar
-Definir dos arrays de enteros en código y decir si son iguales o distintos. Los valores tienen que estar entre 0 y 9 y ambos arrays serán del mismo tamaño. Usar una tabla auxiliar para llevar el conteo de los números que están el el array. 
+Definir dos arrays de enteros en código y decir si son iguales o distintos. Los valores tienen que estar entre 0 y 9 y ambos arrays serán del mismo tamaño. **No se pueden repetir** elementos dentro del array.  Usar una tabla auxiliar para llevar el conteo de los números que están el el array. 
 1 - 2 - 3 - 5    VS    1 - 9 - 5 - 2      ❌   
-1 - 5 - 1 - 2    VS    2 - 1 - 5 - 1  	  ✅   
+1 - 5 - 7 - 2    VS    2 - 1 - 5 - 7  	  ✅   
 
 
 ## Ejercicio08 - crece/decrece/iguales
