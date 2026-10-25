@@ -55,7 +55,7 @@ Programa que declare un array de diez elementos enteros y pida números para rel
 ## Ejercicio05 - son pares todos?
 Dada una lista de 5 números en código, indicar si todos ellos son pares.
 
-## Ejercicio06 - comparar lista
+## Ejercicio06 - comparar listas. El orden sí importa
 Definir dos arrays de enteros en código y decir si son iguales o distintos. El orden tiene que ser el mismo
 
 Ejemplo:  
@@ -63,14 +63,16 @@ Ejemplo:
 1 - 2 - 3 - 2    VS    1 - 2 - 3 - 2  	  ✅
 
 
-## Ejercicio07 - listas con los mismos numeros
-Definir dos arrays de enteros en código y decir si son iguales o distintos. ~~Los valores tienen que estar entre 0 y 9 y ambos arrays serán del mismo tamaño~~. **No se pueden repetir** elementos dentro del array.  Usar una tabla auxiliar para llevar el conteo de los números que están el el array. 
+## Ejercicio07 - comparar listas sin importar el orden. No se pueden repetir números
+Definir dos arrays de enteros en código y decir si son iguales o distintos. ~~Los valores tienen que estar entre 0 y 9 y ambos arrays serán del mismo tamaño~~. **No se pueden repetir** elementos dentro del array.  
 1 - 2 - 3 - 5    VS    1 - 9 - 5 - 2      ❌   
 1 - 5 - 7 - 2    VS    2 - 1 - 5 - 7  	  ✅   
 
-## Ejercicio07bis - listas con los mismos numeros. Se pueden repetir.Tabla auxiliar.
-Definir dos arrays de enteros en código y decir si son iguales o distintos. Los valores tienen que estar entre 0 y 9 y ambos arrays serán del mismo tamaño. Se pueden repetir elementos dentro del array.  Usar una tabla auxiliar para llevar el conteo de los números que están el el array. 
+
+## Ejercicio07bis - comparar listas sin importar el orden, Sí se pueden repetir números
+Definir dos arrays de enteros en código y decir si son iguales o distintos. Los valores tienen que estar **entre 0 y 9** y ambos arrays serán del mismo tamaño. Se pueden repetir elementos dentro del array.  Usar una tabla auxiliar para llevar el conteo de los números que están el el array. 
 1 - 2 - 7 - 2    VS    2 - 1 - 2 - 7  	  ✅
+
 
 ## Ejercicio08 - crece/decrece/iguales
 PARTE1 (la hacemos para entender el problema y cómo resolverlo): dada  una lista de números en código, indicar si están en orden creciente.
