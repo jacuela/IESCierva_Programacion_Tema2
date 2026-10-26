@@ -14,9 +14,8 @@ public class Ejercicio07 {
             //Si lo encuentro, aumento el contador de iguales
             for (int j = 0; j < lista1.length; j++) {
                 if (lista1[i]==lista2[j]){
-                    //existe=true;
                     contadorIguales++;
-                    //break; para permitir repetir números
+                    break; //AHORRAR TIEMPO
                 }
             }
         }

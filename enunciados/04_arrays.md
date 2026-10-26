@@ -68,10 +68,13 @@ Definir dos arrays de enteros en código y decir si son iguales o distintos. ~~L
 1 - 2 - 3 - 5    VS    1 - 9 - 5 - 2      ❌   
 1 - 5 - 7 - 2    VS    2 - 1 - 5 - 7  	  ✅   
 
-Prueba a permitir repetir números. ¿Funciona?  
-1 - 5 - 1 - 2    VS    1 - 1 - 5 - 2  	  ✅     
 
-En caso de que tu algoritmo no lo consiga, intenta resolverlo, modificando tu algoritmo o haciendo otro distinto.
+## Ejercicio07bis - comparar listas sin importar el orden. Sí se pueden repetir números
+
+Prueba a permitir repetir números. ¿Funciona?  
+3 - 3 - 3 - 3    VS    3 - 1 - 5 - 2  	  ❌     
+
+De la forma que hemos resuelto el ejercicio anterior no funciona. Una forma de resolverlo es usar arrays auxiliares que cuenten las apariciones de los números en casa lista. Luego comparo los dos arrays auxiliares.
 
 ## Ejercicio08 - crece/decrece/iguales
 PARTE1 (la hacemos para entender el problema y cómo resolverlo): dada  una lista de números en código, indicar si están en orden creciente.
