@@ -177,6 +177,15 @@ Suma todos los elementos de cada fila y todos los elementos de cada columna visu
 ![img.png](imagenes/salida_matriz.png)
 
 ## Ejercicio17
+Dado el siguiente tablero del juego de las 3 en raya, haz un algoritmo que comprueba si algún jugador ha ganado.
+
+| x | o | x |
+|---|---|---|
+|   | o | o |
+| x | o | x |
+
+
+## Ejercicio18
 Se tiene la siguiente tabla notas con las notas y la media de las tres evaluaciones de 5 alumnos y un array alumnos con los nombres de los alumnos.
 
 ![img.png](imagenes/alumnos_notas.png)
