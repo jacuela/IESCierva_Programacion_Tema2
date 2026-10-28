@@ -2,6 +2,7 @@ package _4arrays;
 
 import com.sun.security.jgss.GSSUtil;
 
+import java.time.Year;
 import java.util.Scanner;
 
 public class Ejercicio10 {
@@ -16,9 +17,10 @@ public class Ejercicio10 {
         int dia=-1, mes=-1, year=-1;
 
 
-
+        //===============================================
+        //===== PARTE 1: Comprobar el formato de la fecha
+        //===============================================
         do{
-            //===== PARTE 1: Comprobar el formato de la fecha
             formatoFechaCorrecto = true;  //reseteo variable
             System.out.print("Dime una fecha [dd/mm/aaaa]:");
             String fecha = teclado.nextLine();
@@ -53,15 +55,42 @@ public class Ejercicio10 {
 
         }while (!formatoFechaCorrecto);
 
+        //===============================================
+        //===== PARTE 2: Comprobar que la fecha es correcta
+        //===============================================
 
-
-
-
-
-
-
-        System.out.println("Formato fecha correcto:"+formatoFechaCorrecto);
         System.out.printf("Dia:%d  Mes:%d  Año:%d\n",dia,mes,year);
+
+        boolean fechaCorrecta = true;
+
+        int [] diasMes={0,31,28,31,30,31,30,31,31,30,31,30,31};
+        String [] mesesAño={"","enero","febrero","marzo","abril","mayo",
+                "junio","julio","agosto","septiembre","octubre",
+                "noviembre","diciembre"};
+
+        //Antes de seguir, si el año es bisiesto, hago que febrero tenga
+        //29 dias
+        if (Year.isLeap(year)){
+            diasMes[2]=29; //actualizamos tabla
+        }
+
+        if (year<1900 || year>3000){
+            fechaCorrecta = false;
+        }
+        else if (mes<1 || mes>12){
+            fechaCorrecta = false;
+        }
+        else if(dia<1 || dia>diasMes[mes]){
+            fechaCorrecta = false;
+        }
+
+        //Parte final:  mostrar fecha
+        if (fechaCorrecta){
+            System.out.printf("El <%d de %s de %d> es CORRECTO\n",dia,mesesAño[mes],year);
+        }
+        else{
+            System.out.println("ERROR: la fecha es incorrecta");
+        }
 
 
 
