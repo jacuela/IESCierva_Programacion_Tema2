@@ -134,8 +134,8 @@ Pedir por teclado un alumno, y mostrar su media y la media del grupo.
 ![img.png](imagenes/salida_notas.png)
 
 ## Ejercicio13 - nombres y edades de alumnos
-Queremos guardar los nombres y la edades de los alumnos de un curso. Realiza un programa que introduzca el nombre y la edad de cada alumno. El proceso de lectura de datos terminará cuando se introduzca como nombre un asterisco (*) o cuando introduzcas el máximo de alumnos (como tamaño de array, usar 5).
-Si terminamos con *, meteremos dicho * en la ultima posición del array de alumnos y un -1 en la ultima posición del array de edades.
+Queremos guardar los nombres y la edades de los alumnos de un curso. Realiza un programa que introduzca el nombre y la edad de cada alumno. El proceso de lectura de datos terminará cuando se introduzca como nombre un asterisco (*) o cuando introduzcas el máximo de alumnos (como tamaño de array, usar 5. MEJORA: pedir tamaño por teclado).
+Si terminamos con *, meteremos dicho * en la posición del array nombres por donde vayamos y un -1 en la posición de las edades (ver imagen).
 
 ![img.png](imagenes/nombres_edades.png)
 
