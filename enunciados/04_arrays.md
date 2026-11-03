@@ -184,6 +184,8 @@ Dado el siguiente tablero del juego de las 3 en raya, haz un algoritmo que compr
 |   | o | o |
 | x | o | x |
 
+MEJORA: genera de forma aleatoria un tablero y comprueba si hay ganadores
+
 
 ## Ejercicio18
 Se tiene la siguiente tabla notas con las notas y la media de las tres evaluaciones de 5 alumnos y un array alumnos con los nombres de los alumnos.
