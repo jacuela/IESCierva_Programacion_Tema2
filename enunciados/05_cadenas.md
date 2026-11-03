@@ -55,11 +55,81 @@ Dada una cadena por teclado, eliminar espacios en blanco pero sin usar la funci�
 frase = frase + caracter
 ```
 
-## Ejercicio06 - 
+## Ejercicio06 - let's rock
 Dada la cadena **"el rock mola siempre"**, convertir la frase a mayúsculas y cambiar las letras 'o' por un cero y las letras 'i' por el numero 1. La salida será: **"EL R0CK M0LA S1EMPRE"**.
 El ejercicio hay que hacerlo concatenando carácter a carácter, y antes de concatenarlo, pasarlo a mayúsculas. Es decir, no puedo usar la función replace() dos veces y luego usar la función toUpperCase().
 
+## Ejercicio07 - apariciones de palabras
+Contar las apariciones de una palabra en una frase. Definir una frase en código (para agilizar).    
+
+`String frase="No hay camino para la paz, la paz es el camino"` 
+
+El programa pedirá al usuario una palabra y se indicará las veces que aparece en la frase. **IMPORTANTE: no puedes usar split**.
+```text
+Frase --> No hay camino para la paz, la paz es el camino
+
+Dime palabra [INTRO para fin]: paz
+   > La palabra "paz" aparece 2 veces.
+
+Dime palabra [INTRO para fin]: casa
+   > La palabra "casa" aparece 0 veces.
+
+Dime palabra [INTRO para fin]: 
+
+FIN       
+```
 
 
+## Ejercicio08 - conversor de frases
+Escribe un programa en Java que pida al usuario una frase por teclado y, a continuación, muestre repetidamente el siguiente menú hasta que el usuario decida salir:
+```text
+--- MENÚ ---
+Frase actual: hola mundo de java
+1. Pasar a UpperCamelCase
+2. Pasar a snake_case
+3. Resetear frase
+4. Salir
+Elige una opción:
+``` 
+Cada opción debe hacer lo siguiente:
 
-## ...... y más
+1. Pasar a UpperCamelCase: muestra la frase sin espacios, con la primera letra de cada palabra en mayúscula y el resto en minúscula.   
+
+Ejemplo: hola mundo de java → HolaMundoDeJava
+
+2. Pasar a snake_case: muestra la frase en minúsculas, con los espacios sustituidos por guiones bajos (_).   
+
+Ejemplo: Hola Mundo de Java → hola_mundo_de_java
+
+3. Resetear frase: vuelve a pedir una frase nueva por teclado, que sustituye a la anterior.
+
+Si el usuario introduce una opción que no está entre 1 y 4, el programa mostrará el mensaje “Opción no válida” y **sin repetir el menú**, te pedirá otra vez la opción.
+
+## Ejercicio09 - estraer palabras sin split
+Extraer la primera y la tercera palabra de la frase "Alicia tiene 35 años". No se puede usar split. 
+
+
+## Ejercicio10 - maquina de cifrado
+### Base de conocimiento
+¿Sabías que un carácter de tipo char se puede tratar como un número? Es su código ASCII.
+
+El carácter 'a' equivale al 97  
+El carácter 'C' equivale al 67  
+El carácter '7' equivale al 55  
+
+<img src="imagenes/talbaASCII.png" width="200">
+
+Además, se pueden hacer sumas con caracteres: 'd' + 5 da 105, que es el código de la 'i'. Para obtener el carácter hay que hacer un casting: (char) ('d' + 5) es 'i'.
+
+### Enunciado
+**PARTE 1: Cifrado (tipo César, con desplazamiento 1)**  
+Haz un programa que pida una frase por teclado y la cifre, guardando el resultado en una variable llamada fraseCifrada. Para ello, cada carácter se sustituye por el carácter cuyo código ASCII es una unidad mayor (1 sería la clave del cifrado César). Los espacios también se cifran: el espacio (32) pasa a ser '!' (33).
+
+Pista para concatenar: `fraseCifrada = fraseCifrada + Character.toString(caracter)`
+
+**PARTE 2: Descifrado**  
+A continuación, el programa pedirá una frase cifrada (el usuario la copiará y pegará con el ratón) y la descifrará, restando una unidad al código de cada carácter.
+
+![cifrado.png](imagenes/cifrado.png)
+
+MEJORA OPCIONAL: el ejercicio se podría mejorar escogiendo la clave de cifrado, en lugar de 1, un número entre 1 y 10, por ejemplo. Se complica porque te sales fuera de rango. La z (122), podría convertirse en el 132. Habría que hacer que del 126 pasase al 32. De esta manera, la z+10 sería 37.  
