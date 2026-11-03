@@ -132,4 +132,4 @@ A continuación, el programa pedirá una frase cifrada (el usuario la copiará y
 
 ![cifrado.png](imagenes/cifrado.png)
 
-MEJORA OPCIONAL: el ejercicio se podría mejorar escogiendo la clave de cifrado, en lugar de 1, un número entre 1 y 10, por ejemplo. Se complica porque te sales fuera de rango. La z (122), podría convertirse en el 132. Habría que hacer que del 126 pasase al 32. De esta manera, la z+10 sería 37.  
+MEJORA OPCIONAL: el ejercicio se podría mejorar escogiendo la clave de cifrado, en lugar de 1, un número entre 1 y 10, por ejemplo. Se complica porque te sales fuera de rango. La z (122), podría convertirse en el 132. Habría que hacer que del 126 pasase al 32. De esta manera, la z+10 sería 37.  TE QUIERO
