@@ -93,8 +93,34 @@ MEJORA: las iniciales las debes mostrar en mayúsculas. Para convertir texto a m
 ![diagrama flujo iniciales1](./imagenes/iniciales1.png)
 ![diagrama flujo iniciales1](./imagenes/iniciales2.png)
 
+## Ejercicio 15 - operador ternario
+Pedir por teclado la edad y decir si es mayor de edad o no, en base al booleano `booelan esMayorEdad`. Usar el operador ternario para mostrar el Sí o el No.
+```text
+Indica la edad (INTRO fin): 15
+Mayor de edad: No
 
+Indica la edad (INTRO fin): 18
+Mayor de edad: Sí
 
+```
+
+### Operador ternario
+```java
+int edad = 20;
+
+//Usando if clasico
+if (edad >= 18) {
+    String mensaje = "Eres mayor de edad";
+} else {
+    Srting mensaje = "Eres menor de edad";
+}
+
+// Usando operador ternario
+String mensaje = (edad >= 18) ? "Eres mayor de edad" : "Eres menor de edad";
+
+System.out.println(mensaje); // Salida: Eres mayor de edad
+
+``` 
 
 
 
