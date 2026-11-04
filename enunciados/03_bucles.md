@@ -159,5 +159,12 @@ El programa tendrá exactamente esta interfaz.
 
 ![divisores](./imagenes/divisores.png)
 
+## Ejercicio 15 - operador ternario
+Pedir por teclado la edad y decir si es mayor de edad o no, en base al booleano `booelan esMayorEdad`. Usar el operador ternario para mostrar el Sí o el No.
+```text
+Indica la edad (INTRO fin): 15
+Mayor de edad: Sí
+
+```
 
 
