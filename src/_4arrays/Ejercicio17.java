@@ -5,7 +5,7 @@ public class Ejercicio17 {
         System.out.println("Ejercicio17 - tablero 3 en raya");
         System.out.println("===============================");
 
-        char[][] tablero = {{'x','o','x'},{'-','o','o'},{'x','o','x'}};
+        char[][] tablero = {{'x','o','x'},{' ','o','o'},{'x','o','x'}};
 
         //=========MEJORA 1 - TABLERO ALEATORIO===================
         //Recorro cada ficha del tablero y aleatoriamente meto una 'x' o una 'o'
