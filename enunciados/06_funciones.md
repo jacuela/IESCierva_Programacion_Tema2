@@ -14,8 +14,7 @@ Crea una función que te diga si una fecha es correcta o no. Puedes usar el algo
 - Parámetros de entrada: día, mes y año
 - Parámetros de salida: verdadero o falso según sea el número par o impar
 
-Haz luego un programa que te pida en bucle una fecha en formato dd/mm/aaaa  números en bucle (hasta meter el cero) y te diga si cada número es par o no, haciendo uso de la función anterior.
-
+Haz luego un programa que te pida una fecha en formato dd/mm/aaaa y te diga si es correcta o no.   
 
 
 ## Ejercicio03 - funciónes gestionar fechas
