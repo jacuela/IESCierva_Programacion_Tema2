@@ -47,6 +47,8 @@ Crea tres funciones:
   Formato de fecha incorrecto
 ```
 
+![llamadas-ejercicio3.png](imagenes/llamadas-ejercicio3.png)
+
 
 
 ## Ejercicio04 - función imprimirArray()
