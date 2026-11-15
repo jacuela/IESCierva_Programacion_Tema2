@@ -83,22 +83,38 @@ Hacer un programa pida por teclado tamaño y rango, y te imprima el array genera
 
 ### Primera función: comparar_vectores()
 Hacer una función que reciba dos arrays como parámetros y diga si son iguales, número a número
-El prototipo de la función será:
+El prototipo de la función será:  
 
-		boolean compararArrays(int [] lista1, int [] lista2)
+`boolean compararArrays(int [] lista1, int [] lista2)`
 
 ### Segunda función: fusionar_vectores()
 Hacer una función que reciba dos arrays como parámetros y devuelva otro con la lista de ambos arrays.  
-El prototipo de la función será
+El prototipo de la función será:  
 
-		int[] fusionarArrays(int [] lista1, int [] lista2)
+`int[] fusionarArrays(int [] lista1, int [] lista2)`
 
 ### Programa principal
 Define dos arrays en código y comprueba si son iguales y fusiónalos en uno solo.
 
 
+## Ejercicio07 - conversor de frases con funciones
+Este ejercicio **es una mejora** del Ejercicio08 de cadenas.
 
-
+Escribe un programa en Java que pida al usuario una frase por teclado y, a continuación, muestre repetidamente el siguiente menú hasta que el usuario decida salir:
+```text
+================================================
+Frase original: Hola mundo de Java
+Snake_case: hola_mundo_de_java
+================================================
+1. Pasar a UpperCamelCase
+2. Pasar a snake_case
+3. Resetear frase
+4. Salir
+Elige una opción:
+``` 
+- Implementa funciones para las diferentes opciones.
+- La frase original no se pierde
+- Fíjate que en la segunda frase, debe aparecer el nombre del cambio aplicado.
 
 # ... y mas
 
