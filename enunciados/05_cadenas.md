@@ -105,7 +105,7 @@ Ejemplo: Hola Mundo de Java → hola_mundo_de_java
 
 Si el usuario introduce una opción que no está entre 1 y 4, el programa mostrará el mensaje “Opción no válida” y **sin repetir el menú**, te pedirá otra vez la opción.
 
-## Ejercicio09 - estraer palabras sin split
+## Ejercicio09 - extraer palabras sin split
 Extraer la primera y la tercera palabra de la frase "Alicia tiene 35 años". No se puede usar split. 
 
 
