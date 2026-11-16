@@ -81,13 +81,13 @@ Hacer un programa pida por teclado tamaño y rango, y te imprima el array genera
 
 ## Ejercicio06 - comparar y fusionar arrays  
 
-### Primera función: comparar_vectores()
+### Primera función: compararArrays()
 Hacer una función que reciba dos arrays como parámetros y diga si son iguales, número a número
 El prototipo de la función será:  
 
 `boolean compararArrays(int [] lista1, int [] lista2)`
 
-### Segunda función: fusionar_vectores()
+### Segunda función: fusionarArrays()
 Hacer una función que reciba dos arrays como parámetros y devuelva otro con la lista de ambos arrays.  
 El prototipo de la función será:  
 
