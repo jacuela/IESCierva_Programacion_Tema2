@@ -6,11 +6,13 @@ public class Ejercicio04 {
         imprimirArray(lista);
     }
 
-    //  +----+----+----+----+
-    //  |   3|   7|   9|   1|
-    //  +----+----+----+----+
+
     public static void imprimirArray(int[] array){
-        //Imprimimos array de forma bonita
+        //Imprimimos array con este formato
+        //  +----+----+----+----+
+        //  |   3|   7|   9|   1|
+        //  +----+----+----+----+
+        //
         for (int i = 0; i < array.length ; i++) {
             System.out.print("+----");
         }
