@@ -15,8 +15,10 @@ public class Ejercicio05 {
         System.out.print("Extremo superior: ");
         int max = Integer.parseInt(teclado.nextLine());
 
-        int []lista = arrayAleatorio(tam,min,max);
-        imprimirArray(lista);
+        //int []lista = arrayAleatorio(tam,min,max);
+        //imprimirArray(lista);
+        imprimirArray(arrayAleatorio(tam,min,max));
+
     }
 
     /**

@@ -70,6 +70,13 @@ o con indices
 o como tu quieras.
 ```
 
+SUPER MEJORA: crea el paquete **utilidades** y dentro del mismo, la clase **Util**. Dentro de esta clase, no creas ningún método _main_. Pega la función creada de **imprimirArray**. Con esto, ya podrás usar la función en otros ejercicios con la llamada
+```java
+import utilidades.Util;
+Util.imprimirArray(UN_ARRAY);
+```
+
+
 
 ## Ejercicio05 - función arrayAleatorio()
 Crear una función para generar un array de números enteros aleatorios.
@@ -95,6 +102,7 @@ El prototipo de la función será:
 
 ### Programa principal
 Define dos arrays en código y comprueba si son iguales y fusiónalos en uno solo.
+
 
 
 ## Ejercicio07 - conversor de frases con funciones
