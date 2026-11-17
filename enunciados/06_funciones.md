@@ -104,8 +104,17 @@ El prototipo de la función será:
 Define dos arrays en código y comprueba si son iguales y fusiónalos en uno solo.
 
 
+## Ejercicio07 - palindromo
+¿Es palíndromo una palabra?
 
-## Ejercicio07 - conversor de frases con funciones
+Crea dos funciones:
+
+- `invertir(String texto)`: devuelve la cadena al revés.
+- `esPalindromo(String texto)`: llama a invertir y compara el resultado con el texto original (sin distinguir mayúsculas y minúsculas).
+
+En main, pide una palabra por teclado y di si es palíndromo o no.
+
+## Ejercicio08 - conversor de frases con funciones
 Este ejercicio **es una mejora** del Ejercicio08 de cadenas.
 
 Escribe un programa en Java que pida al usuario una frase por teclado y, a continuación, muestre repetidamente el siguiente menú hasta que el usuario decida salir:
@@ -123,6 +132,8 @@ Elige una opción:
 - Implementa funciones para las diferentes opciones.
 - La frase original no se pierde
 - Fíjate que en la segunda frase, debe aparecer el nombre del cambio aplicado.
+
+
 
 # ... y mas
 

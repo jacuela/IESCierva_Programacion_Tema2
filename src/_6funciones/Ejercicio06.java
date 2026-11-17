@@ -1,11 +1,12 @@
 package _6funciones;
 
+
 import utilidades.Util;
 
 public class Ejercicio06 {
     public static void main(String[] args) {
-        int[] lista1={1,2,3};
-        int[] lista2={1,5,3};
+        int[] lista1={1,2,3,4};
+        int[] lista2={5,6,7};
 
         String texto = compararArrays(lista1,lista2) ? "iguales" : "distintos";
         System.out.println("Los arrays son "+texto);
