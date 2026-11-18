@@ -37,12 +37,12 @@ Dada la frase `"String frase= "El covid19 es lo peor"`, indicar el numero de voc
 ## Ejercicio03 - funciones indexof, replace, contains
 Dada la frase (en mayúsculas y con espacios al principio y final) `String frase= "   HOMBRES Y MUJERES TENEMOS LOS MISMOS DERECHOS   "`:
 - ¿Aparece la palabra "mujeres"?. Hazlo con `indexOf()` y con `contains()`.
-- Indicar el numero de palabras que tiene (debe salir 7)
-- Cambia los espacios en blanco de la frase original por el carcarter '_'
-- Elimina los espacios en blanco de la frase. Debe salir `HOMBRESYMUJERESTENEMOSLOSMISMOSDERECHOS`
+- Indicar el numero de palabras que tiene (debe salir 7). No puedes usar `split()`.
+- Cambia los espacios en blanco de la frase original por el carcarter '_'. Usa `replace()`.
+- Elimina los espacios en blanco de la frase. Debe salir `HOMBRESYMUJERESTENEMOSLOSMISMOSDERECHOS`. Usa `replace()`.
 
 ## Ejercicio04 - substring
-Hacer un programa que te pida un email como "ana@gmail.com" y muestre por separado el usuario y el dominio, usando indexOf() junto con substring. Hacerlo en bucle y terminar con INTRO.
+Hacer un programa que te pida un email como "ana@gmail.com" y muestre por separado el usuario y el dominio, usando `indexOf()` junto con `substring()`. Hacerlo en bucle y terminar con INTRO.
 ```java
 ana@gmail.com
   usuario: ana
@@ -57,14 +57,14 @@ frase = frase + caracter
 
 ## Ejercicio06 - let's rock
 Dada la cadena **"el rock mola siempre"**, convertir la frase a mayúsculas y cambiar las letras 'o' por un cero y las letras 'i' por el numero 1. La salida será: **"EL R0CK M0LA S1EMPRE"**.
-El ejercicio hay que hacerlo concatenando carácter a carácter, y antes de concatenarlo, pasarlo a mayúsculas. Es decir, no puedo usar la función replace() dos veces y luego usar la función toUpperCase().
+El ejercicio hay que hacerlo concatenando carácter a carácter, y antes de concatenarlo, pasarlo a mayúsculas. Es decir, no puedo usar la función `replace()` dos veces y luego usar la función `toUpperCase()`.
 
 ## Ejercicio07 - apariciones de palabras
-Contar las apariciones de una palabra en una frase. Definir una frase en código (para agilizar).    
+Contar las apariciones de una palabra en una frase. Definir una frase en código (para agilizar). **No puedes usar `split()`**.    
 
 `String frase="No hay camino para la paz, la paz es el camino"` 
 
-El programa pedirá al usuario una palabra y se indicará las veces que aparece en la frase. **IMPORTANTE: no puedes usar split**.
+Interfaz del programa:
 ```text
 Frase --> No hay camino para la paz, la paz es el camino
 
