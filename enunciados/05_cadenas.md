@@ -63,7 +63,7 @@ El ejercicio hay que hacerlo concatenando carácter a carácter, y antes de conc
 Contar las apariciones de una palabra en una frase. Definir una frase en código (para agilizar). **No puedes usar `split()`**.    
 
 `String frase="No hay camino para la paz, la paz es el camino"`
-`String frase2="La paz es paz si en el pazo llueve paz"`
+`String frase2="La paz es paz si en el pazo llueve"`
 `String frase3="La paz es paz si en el pazo llueve paz"`;
 
 Interfaz del programa:
@@ -85,13 +85,27 @@ FIN
 ## Ejercicio08 - conversor de frases
 Escribe un programa en Java que pida al usuario una frase por teclado y, a continuación, muestre repetidamente el siguiente menú hasta que el usuario decida salir:
 ```text
---- MENÚ ---
-Frase actual: hola mundo de java
+================================================
+Frase original: hola mundo de Java
+Snake_case: 
+================================================
 1. Pasar a UpperCamelCase
 2. Pasar a snake_case
 3. Resetear frase
 4. Salir
-Elige una opción:
+Elige una opción: 2
+
+================================================
+Frase original: hola mundo de Java
+Snake_case: hola_mundo_de_java
+================================================
+Frase actual: HolaMundoDeJava
+1. Pasar a UpperCamelCase
+2. Pasar a snake_case
+3. Resetear frase
+4. Salir
+Elige una opción: 4
+
 ``` 
 Cada opción debe hacer lo siguiente:
 
