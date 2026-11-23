@@ -62,7 +62,9 @@ El ejercicio hay que hacerlo concatenando carácter a carácter, y antes de conc
 ## Ejercicio07 - apariciones de palabras
 Contar las apariciones de una palabra en una frase. Definir una frase en código (para agilizar). **No puedes usar `split()`**.    
 
-`String frase="No hay camino para la paz, la paz es el camino"` 
+`String frase="No hay camino para la paz, la paz es el camino"`
+`String frase2="La paz es paz si en el pazo llueve paz"`
+`String frase3="La paz es paz si en el pazo llueve paz"`;
 
 Interfaz del programa:
 ```text
