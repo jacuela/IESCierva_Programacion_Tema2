@@ -9,7 +9,7 @@ public class Ejercicio08 {
           String frase = "frase inicial";
           String fraseResultado = "";
           boolean salir = false;
-          int opcion;
+          int opcion = 0;
 
           do{
               System.out.println();
@@ -23,7 +23,15 @@ public class Ejercicio08 {
               System.out.println("4. Salir");
               do {
                   System.out.print("Elige una opción: ");
-                  opcion = Integer.parseInt(teclado.nextLine());
+                  try {
+                      opcion = Integer.parseInt(teclado.nextLine());
+                      if (opcion<1 || opcion>4) {
+                          System.out.println("  ERROR: introduce un numero válido");
+                      }
+                  }catch (Exception e){
+                      System.out.println("  ERROR: introduce un numero.");
+                  }
+
               }while(opcion<1 || opcion>4);
 
               switch (opcion){
