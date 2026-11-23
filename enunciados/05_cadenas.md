@@ -87,7 +87,7 @@ Escribe un programa en Java que pida al usuario una frase por teclado y, a conti
 ```text
 ================================================
 Frase original: hola mundo de Java
-Snake_case: 
+ 
 ================================================
 1. Pasar a UpperCamelCase
 2. Pasar a snake_case
