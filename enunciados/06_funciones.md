@@ -135,8 +135,51 @@ Elige una opción:
 
 
 
-# ... y mas
-
----
 
 
+## Ejemplo - Paso por referencia
+Ejecuta el siguiente código y observa como los arrays se pasan por referencia y las variables primitivas por valor.
+
+![paso-por-valor.png](imagenes/paso-por-valor.png)
+
+```java
+import utilidades.Util;
+public class PasoPorReferencia {
+    public static void duplicar(int[] v) {
+        for (int i = 0; i < v.length; i++) {
+            v[i] = v[i] * 2;   // cambia el array original
+        }
+    }
+    public static void duplicar(int n) {
+        n = n * 2;   // solo cambia la copia
+    }
+    public static void mostrar(int[] v) {
+        for (int i = 0; i < v.length; i++) {
+            System.out.print(v[i] + " ");
+        }
+        System.out.println();
+    }
+    public static void main(String[] args) {
+        int[] nums = {1, 2, 3, 4};
+        Util.imprimirArray(nums);  //opcional mostrar(nums)
+        duplicar(nums);   // no devuelve nada...
+        Util.imprimirArray(nums);    // 2 4 6 8  ¡ha cambiado!
+
+        System.out.println();
+        int valor = 10;
+        System.out.println("valor: "+valor);
+        duplicar(valor);
+        System.out.println("valor: "+valor);
+    }
+}
+```
+
+## Ejercicio 09 - incrementar valores array
+Hacer una función llamada _incrementar()_ que le pasarás un array de enteros y un valor y incrementará todos los valores del array sumando dicho valor.
+
+
+¿Devolvemos el array incrementado o no devolvemos nada? Piensa en como quedaría el main con ambos casos.
+
+
+## Ejercicio 10 - hacer copia array
+Hacer una función que me devuelva una copia de un array dado.
