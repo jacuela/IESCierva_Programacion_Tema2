@@ -122,8 +122,23 @@ Ejemplo: Hola Mundo de Java → hola_mundo_de_java
 Si el usuario introduce una opción que no está entre 1 y 4, el programa mostrará el mensaje “Opción no válida” y **sin repetir el menú**, te pedirá otra vez la opción.
 
 ## Ejercicio09 - extraer palabras sin split
-Extraer la primera y la tercera palabra de la frase "Alicia tiene 35 años". No se puede usar split. 
-
+Dar una frase en código, por ejemplo "Alicia tiene 35 años". 
+Pedir por teclado que muestre la palabra con el número de orden indicado. Pararemos con el cero.
+No se puede usar split. 
+```text
+"Alicia tiene 35 años"
+palabra en posicion: 1
+  -->Alicia
+palabra en posicion: 3
+  -->35
+palabra en posicion: 5
+  --> la frase solo tiene 4 palabras
+palabra en posicion: -1
+  --> posición inválida
+palabra en posicion: 0
+BYE BYE    
+```
+OPCIONAL: controlar la excepción al no meter un número.
 
 ## Ejercicio10 - maquina de cifrado
 ### Base de conocimiento
